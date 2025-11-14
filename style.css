@@ -1,0 +1,59 @@
+body{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+}
+.progres{
+    height: 10px;
+    background: limegreen;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    scale: 0 1;
+    animation: analizador linear;
+    animation-timeline: scroll();
+    ransform-origin: left;
+}
+
+@keyframes analizador{
+
+    to{
+        scale: 1 1;
+        
+    }
+}
+
+@media (max-width:480px)
+{
+    body{
+    background-color: red;
+    }
+   
+}
+@media (min-width:481px) and (max-width:1279px)
+{
+    body{
+    background-color: orange;
+    }
+}
+
+@media (min-width:1280px)
+{
+    body{
+    background-color: blue;
+    }
+}
