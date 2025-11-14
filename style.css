@@ -25,6 +25,8 @@ p{
     width: 100%;
     scale: 0 1;
     animation: analizador linear;
+    -moz-animation-timeline:scroll() ;
+    -webkit-animation-timeline: scroll();
     animation-timeline: scroll();
     ransform-origin: left;
 }
